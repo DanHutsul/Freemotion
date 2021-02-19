@@ -60,7 +60,7 @@
   -ms-transform: matrix( 0.3995567867036,0,0,0.39999680760602,0,0);
   position: absolute;
   left: -178px;
-  top: 75px;
+  top: 65px;
   z-index: 300;
 }
 
@@ -70,7 +70,21 @@
   color: rgb(255, 255, 255);
   position: absolute;
   left: 40px;
-  top: 225px;
+  top: 206px;
   list-style-type: circle;
   width: 272px;
+}
+
+.carousel_box_list_item {
+  margin-bottom: 2px;
+  padding: 0;
+}
+
+.carousel_box_price {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 27px;
+  top: 381px;
 }
