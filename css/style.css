@@ -7,3 +7,70 @@
   height: 30px;
   z-index: 348;
 }
+
+.lower_header {
+  top: 30px;
+  height: 111px;
+}
+
+.logo {
+  position: absolute;
+  left: 413px;
+  top: 49px;
+  z-index: 342;
+}
+
+.carousel_image {
+  height: 743px;
+}
+
+.carousel_box {
+  position: absolute;
+  left: 1035px;
+  top: 152px;
+  height: 717px;
+  width: 500px;
+}
+
+.carousel_box_header_small {
+  font-size: 47.402px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.3995567867036,0,0,0.39999680760602,0,0);
+  -webkit-transform: matrix( 0.3995567867036,0,0,0.39999680760602,0,0);
+  -ms-transform: matrix( 0.3995567867036,0,0,0.39999680760602,0,0);
+  position: absolute;
+  left: -100px;
+  top: 75px;
+  z-index: 300;
+}
+
+.carousel_box_header_big {
+  font-size: 47.402px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 0.3995567867036,0,0,0.39999680760602,0,0);
+  -webkit-transform: matrix( 0.3995567867036,0,0,0.39999680760602,0,0);
+  -ms-transform: matrix( 0.3995567867036,0,0,0.39999680760602,0,0);
+  position: absolute;
+  left: -178px;
+  top: 75px;
+  z-index: 300;
+}
+
+.carousel_box_list {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 40px;
+  top: 225px;
+  list-style-type: circle;
+  width: 272px;
+}
