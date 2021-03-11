@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+} 
+
 @font-face {
   font-family: Mitr-ExtraLight;
   src: url('../fonts/Mitr-ExtraLight.ttf')  format('truetype');
@@ -78,7 +82,7 @@ a, a:visited {
 
 .upper_header_text {
   width: 45%;
-  font-family: Mitr-ExtraLight;
+  font-family: "Mitr-ExtraLight";
   color: white;
   font-size: 12px;
   font-weight: 200;
@@ -214,7 +218,7 @@ a, a:visited {
 .carousel_box_header_small {
   display: block;
   margin-bottom: 20px;
-  font-family: "Open Sans",sans-serif !important;
+  font-family: "Open Sans",sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
@@ -229,7 +233,7 @@ a, a:visited {
 .carousel_box_header_big {
   display: block;
   margin-bottom: 20px;
-  font-family: "Open Sans",sans-serif !important;
+  font-family: "Open Sans",sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
@@ -243,7 +247,7 @@ a, a:visited {
 
 .carousel_box_list {
   font-size: 14px;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: rgb(255, 255, 255);
   list-style-type: disc;
   margin: 0 0 16px 22px;
@@ -258,13 +262,14 @@ a, a:visited {
 }
 
 .carousel_box_price {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 19px;
   margin-top: 15px;
 }
 
 .carousel_box_shipping {
+  font-family: "Open Sans", sans-serif;
   display: block;
   color: rgb(255, 255, 255);
   font-size: 15px;
@@ -273,6 +278,7 @@ a, a:visited {
 }
 
 .carousel_box_buy_button {
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
   text-align: center;
   width: 149px;
@@ -708,4 +714,148 @@ a, a:visited {
   max-width: 475px;
   line-height: 24px;
   padding: 35px 26px 0 26px;
+}
+
+
+
+
+
+footer {
+  width: 1920px;
+  height: 344px;
+  background-image: url("../img/footer.png");
+  border-top: 3px solid #89c03c;
+  color: #d6d6d6;
+}
+
+.footer_container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1210px;
+  height: 314px;
+}
+
+.footer_info {
+  margin-left: 0px !important;
+}
+
+.footer_container div {
+  display: inline-block;
+  float: left;
+  margin: 70px 0 0 42px;
+  width: 270px;
+}
+
+
+
+.footer_container div p {
+  font-family: "Mitr-Regular";
+  font-size: 18px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.footer_container div ul {
+  font-family: "Mitr-Regular";
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 22px;
+  padding-left: 22px;
+}
+
+.footer_exclusive form {
+  font-family: "Mitr-Light" !important;
+  font-size: 12px !important;
+  padding: 6px 69px 9px 19px;
+  border: 3px solid #d6d6d6;
+}
+
+.footer_exclusive * {
+  display: block;
+}
+
+.footer_exclusive a {
+  font-family: Mitr-Regular !important;
+  font-size: 12px !important;
+  padding: 7px 111px 7px 110px;
+  margin-top: 7px;
+  border: 3px solid #d6d6d6;
+  background-color: #d1253c;
+}
+
+
+.exclusive_text {
+  padding: 16px;
+  font-family: Mitr-Light !important;
+  font-size: 12px !important;
+  width: 218px;
+  border-bottom: 0px !important;
+}
+
+.footer_get_connected {
+  height: 31px;
+  width: 284px;
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+  display: block;
+}
+
+.footer_get_connected ul {
+  display: inline;
+  padding-left: 0px !important;
+  height: 31px;
+}
+
+.footer_get_connected ul li {
+  display: inline;
+  height: 31px;
+  width: 31px;
+}
+
+.footer_get_connected ul li:first-child {
+  font-family: Mitr-Regular !important;
+  font-size: 18px !important;
+  height: 12px;
+  width: 146px;
+  padding-right: 31px; 
+}
+
+.footer_payment {
+  width: 352px;
+  margin-left: 180px !important;
+  margin-top: 0px !important;
+}
+
+.footer_sign_up_text {
+  margin-left: 216px !important;
+  margin-top: 15px !important;
+  width: 237px; 
+
+}
+
+.footer_sign_up_text p {
+  font-family: Mitr-ExtraLight !important;
+  font-size: 12px !important;
+  border-bottom: 0px !important;
+}
+
+
+
+
+.copyright {
+  display: inline-block;
+  width: 1920px;
+  height: 30px;
+  background-color: #000;
+}
+
+.copyright p {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #b9b9b9;
+  font-family: Mitr-ExtraLight !important;
+  font-size: 9px !important;
+  width: 178px;
+  height: 10px;
 }
