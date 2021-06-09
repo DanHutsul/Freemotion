@@ -751,11 +751,19 @@ footer {
   border-bottom: 1px solid #d6d6d6;
 }
 
-.footer_container div ul {
+.footer_list {
   font-family: "Mitr-Regular";
   font-size: 12px;
   line-height: 15px;
-  padding-top: 22px;
+  padding-top: 7px;
+  padding-left: 22px;
+}
+
+.footer_list li {
+  font-family: "Mitr-Regular";
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 15px;
   padding-left: 22px;
 }
 
@@ -796,7 +804,7 @@ footer {
 
 .footer_get_connected {
   height: 31px;
-  width: 284px;
+  width: 282px !important;
   margin-left: 0px !important;
   margin-top: 0px !important;
   display: block;
@@ -810,23 +818,25 @@ footer {
 
 .footer_get_connected ul li {
   display: inline-block;
+  padding-left: 6px;
 }
 
 .footer_get_connected ul li:first-child {
   font-family: Mitr-Regular !important;
   font-size: 18px !important;
   width: 146px;
-  padding-right: 31px;
+  padding-right: 25px;
+  padding-left: 0px;
 }
 
 .footer_payment {
-  width: 352px;
+  width: 325px !important;
   margin-left: 180px !important;
   margin-top: 0px !important;
 }
 
 .footer_sign_up_text {
-  margin-left: 216px !important;
+  margin-left: 150px !important;
   margin-top: 15px !important;
   width: 237px; 
 }
@@ -840,9 +850,6 @@ footer {
   font-size: 12px !important;
   border-bottom: 0px !important;
 }
-
-
-
 
 .copyright {
   display: inline-block;
